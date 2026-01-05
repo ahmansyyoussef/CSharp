@@ -6,7 +6,7 @@ namespace CSharp
     {
         public static void Run()
         {            
-            int age = 2;
+            int age = 22;
 
             if (age >= 18){
                 Console.WriteLine("Adult");

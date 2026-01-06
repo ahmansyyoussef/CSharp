@@ -7,6 +7,7 @@ namespace CSharp
         public static void Run()
         {
             Console.WriteLine("--------------------------");
+            Console.WriteLine("Variables");
             int x = 10;
             int y = 20;
             Console.WriteLine($"Sum = {x + y}");

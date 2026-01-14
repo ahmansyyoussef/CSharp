@@ -15,6 +15,7 @@ namespace CSharp
             string lname = "hamdy";
             int age = 25;
             Console.WriteLine($"Full Name = {fname + lname}");
+            Console.WriteLine($"Age = {age}");
             Console.WriteLine("--------------------------");
         }
     }

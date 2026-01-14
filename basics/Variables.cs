@@ -13,6 +13,7 @@ namespace CSharp
             Console.WriteLine($"Sum = {x + y}");
             string fname = "ahmed";
             string lname = "hamdy";
+            int age = 25;
             Console.WriteLine($"Full Name = {fname + lname}");
             Console.WriteLine("--------------------------");
         }

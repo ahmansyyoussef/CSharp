@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CSharp\\CSharp.csproj": {}
+    "C:\\Users\\AhmedHamdyMansy-TB\\CSharp\\CSharp.csproj": {}
   },
   "projects": {
-    "D:\\CSharp\\CSharp.csproj": {
+    "C:\\Users\\AhmedHamdyMansy-TB\\CSharp\\CSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CSharp\\CSharp.csproj",
+        "projectUniqueName": "C:\\Users\\AhmedHamdyMansy-TB\\CSharp\\CSharp.csproj",
         "projectName": "CSharp",
-        "projectPath": "D:\\CSharp\\CSharp.csproj",
-        "packagesPath": "C:\\Users\\AhmedHamdyMansy\\.nuget\\packages\\",
-        "outputPath": "D:\\CSharp\\obj\\",
+        "projectPath": "C:\\Users\\AhmedHamdyMansy-TB\\CSharp\\CSharp.csproj",
+        "packagesPath": "C:\\Users\\AhmedHamdyMansy-TB\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AhmedHamdyMansy-TB\\CSharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AhmedHamdyMansy\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\AhmedHamdyMansy-TB\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
@@ -59,7 +59,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.101/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.102/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

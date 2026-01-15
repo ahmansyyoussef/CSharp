@@ -6,7 +6,10 @@ namespace CSharp
     {
         static void Main(string[] args)
         {
-            Variables.Run();
+            //Variables.Run();
+            //Datatypes1.Run();
+            //Typeconvic.Run();
+            //Getuserinput.Run();
             //IFstatement.Run();
         }
     }

@@ -8,15 +8,19 @@ namespace CSharp
         {
             Console.WriteLine("--------------------------");
             Console.WriteLine("Variables");
-            int x = 10;
-            int y = 20;
-            Console.WriteLine($"Sum = {x + y}");
-            string fname = "ahmed";
-            string lname = "hamdy";
-            int age = 25;
-            Console.WriteLine($"Full Name = {fname + lname}");
-            Console.WriteLine($"Age = {age}");
             Console.WriteLine("--------------------------");
+            // Declare a variable
+            int num = 10;
+            double decimalNum = 5.5;
+            string message = "Hello, World!";
+            char letter = 'A';
+            bool isTrue = true;
+            // Print the variable
+            Console.WriteLine($"Number = {num}");
+            Console.WriteLine($"Decimal Number = {decimalNum}");
+            Console.WriteLine($"Message = {message}");
+            Console.WriteLine($"Letter = {letter}");
+            Console.WriteLine($"Is True = {isTrue}");
         }
     }
 }

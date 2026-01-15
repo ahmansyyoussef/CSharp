@@ -7,7 +7,7 @@ namespace CSharp
         static void Main(string[] args)
         {
             Variables.Run();
-            IFstatement.Run();
+            //IFstatement.Run();
         }
     }
 }

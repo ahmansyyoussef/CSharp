@@ -14,11 +14,16 @@ namespace CSharp
          * 4. Assignment Operators: =, +=, -=, *=, /=, %= -- used to assign values to variables.
          * 5. Bitwise Operators: &, |, ^, ~, <<, >>  -- used to perform operations on binary representations of numbers.
          * 6. miscellaneous Operators: sizeof, typeof, is, as -- used for various specific operations.
-         
-
-
-
         */
+        Console.WriteLine("--------------------------------------");
+        double x= 5 ;
+        double y = 10;
+        double z = x/y;
+        Console.WriteLine(z);
+
+
+
+        
         }
     }
 }

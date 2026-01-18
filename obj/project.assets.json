@@ -8,19 +8,19 @@
     "net10.0": []
   },
   "packageFolders": {
-    "C:\\Users\\AhmedHamdyMansy-TB\\.nuget\\packages\\": {}
+    "C:\\Users\\ahman\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AhmedHamdyMansy-TB\\CSharp\\CSharp.csproj",
+      "projectUniqueName": "D:\\CSharp\\CSharp.csproj",
       "projectName": "CSharp",
-      "projectPath": "C:\\Users\\AhmedHamdyMansy-TB\\CSharp\\CSharp.csproj",
-      "packagesPath": "C:\\Users\\AhmedHamdyMansy-TB\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AhmedHamdyMansy-TB\\CSharp\\obj\\",
+      "projectPath": "D:\\CSharp\\CSharp.csproj",
+      "packagesPath": "C:\\Users\\ahman\\.nuget\\packages\\",
+      "outputPath": "D:\\CSharp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\AhmedHamdyMansy-TB\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\ahman\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net10.0"

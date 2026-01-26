@@ -21,22 +21,36 @@ namespace CSharp
             double priceBeforeTax;
             double taxAmount;
             double priceAfterTax;
+            double priceAfterTaxperunit;
+            double priceBeforeTaxperunit;
+            double taxAmountperunit ;
 
+            
             if (taxType == 0)
             {
                 // السعر غير شامل الضريبة
                 priceBeforeTax = itemPrice;
+                priceBeforeTaxperunit = itemPrice;
                 taxAmount = itemPrice * taxValue / 100;
+                taxAmountperunit = taxAmount;
+                priceAfterTaxperunit = itemPrice + taxAmount;
                 priceAfterTax = (priceBeforeTax + taxAmount) * itemQTY;
             }
             else
-            {
+            {       
                 // السعر شامل الضريبة
+                priceAfterTaxperunit = itemPrice ;
+                priceBeforeTaxperunit = itemPrice / (1 + taxValue / 100) ;
+                taxAmountperunit = priceAfterTaxperunit - priceBeforeTaxperunit;
                 priceAfterTax = itemPrice * itemQTY;
                 priceBeforeTax = itemPrice / (1 + taxValue / 100) * itemQTY;
                 taxAmount = priceAfterTax - priceBeforeTax;
             }
 
+            Console.WriteLine("-----------------------");
+            Console.WriteLine("Item Price per 1 unit     : " + priceAfterTaxperunit.ToString("0.00"));
+            Console.WriteLine("Price Before Tax per 1 unit: " + priceBeforeTaxperunit.ToString("0.00"));
+            Console.WriteLine("Tax Amount per 1 unit      : " + taxAmountperunit.ToString("0.00"));
             Console.WriteLine("-----------------------");
             Console.WriteLine("Price Before Tax : " + priceBeforeTax.ToString("0.00"));
             Console.WriteLine("Tax Amount       : " + taxAmount.ToString("0.00"));

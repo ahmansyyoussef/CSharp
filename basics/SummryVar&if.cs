@@ -39,7 +39,7 @@ namespace CSharp
             if (num2 != 0)
             {
                 double division = num1.Value / num2.Value;
-                Console.WriteLine($"The Division of {num1} / {num2} = {division}");
+                Console.WriteLine($"The Division of {num1} / {num2} = {division.ToString("0.00")}");
             }
             else
             {
